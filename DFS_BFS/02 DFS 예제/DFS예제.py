@@ -28,3 +28,5 @@ def dfs(graph, v, visited):
 
 # 1노드부터 깊이 우선탐색을 진행했을때 방문한 탐색순서를 알려주는 DFS 함수
 dfs(graph, 1, visited)
+
+# dfs 는 stack을 이용해 가장 멀리있는(깊이) 값을 먼저 탐색하는 탐색 방법
